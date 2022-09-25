@@ -39,6 +39,8 @@ Also he **likes to be consistant on those Above all**, I need to communicate wit
 Then making consistently good decision like which **approaches/tools would be best for a case** and why, which features should be given more emphasized, prioritizing tasks etc. **Not only taking decision but also keeping commitment with those decisions.** Also hearing others idea and check why it is good and why not good, compare my task with the highest standard (Reading blogs, and checking how other developers work), **tell directly to managers/teammates when I fail**, and helping others when they need help. (R) I heared once he told to my team-mates that I the Sachin TendulKar (!) of my team. By following these process, right now I am used to these process in my personal life !
 
 ### 5. Tell Me About a Time When You Failed to Meet a Deadline. What Things Did You Fail to Do? What Were the Repercussions? What Did You Learn? (Customer obsession, ownership, deliver result)
+
+
 (S) In my current project when I was working on Graphical view of endpoints (Cameras) I had to write the code flow for that module. In my team it is strictly followed that everyone should write the code flow after implementation. I follow this so that any new guy in my team can understand source code easily. (T) So I also needed to write code flow of that feature. I had 3 days in my hand. (A) So I wasn't much serious about it because I thould I would be able to finish that within single day. So I spent first two days with some less important taks like refactoring my code, changing into more meaningful variable name etc. At 3rd day when I started writing code flow I saw that there are lot of things that I need to write also. And I was not concern about those. (R) So basically I failed to deliver that task on that day. I needed one more day to complete. After explaing this, I requested my boss to increse it for one more day. He agreed with me as it was a mistake and told me not to repeat the same again. There are several thinkgs that I learned from it.
 > 1. Never think anything less important unless you are familiar to it
 > 2. Try to complete your task at the first part of assigned time
@@ -46,11 +48,19 @@ Then making consistently good decision like which **approaches/tools would be be
 > 4. Update your plan to boss so that he can guide you in any time
 I write down all my mistakes in a list so that I never repeat them.
 
+story: reporting server, flexmonster, hybride solution
+
 ### 6. Tell me about a time when you invented something? (Invent and Simplify, Ownership)
 (S) When I worked on Samsung, during developemt, one device could get only one time data for testing. In order to get new data we needed to reinstalled the app. It was boring. Besides, server provided data only one time because that server was using for another large application (S-Health). (T) So I decided to do some mechanism so that server doesn't get load and from mobile site we get latest data. (A) I thought a mechanism that I will shift the data from old to new. I did this by myself. But I face serveral challanges because every table's timestamp was unique. When I tried to shift them I got serveral exception because of unique constrant. So I took a backup of data to temp, then delete all the data from main database then tried to add timestamp with each entry. (R) By this way, we could solve our problem and it saved our time to negotiate with server team and also it decreased server load time and increased our productivity. 
 
+story: google drive remove issue, drive sync by using application
+story: short URL service
+
 ### 7. Tell me about a time when you took important decision without any data? (Frugality, Learn and Be Curious, Dive Deep)
 (S) When I was fresh student of my graduation time I participated serveral online programming competitions. (T) Suddenly some of my friends stopped participating in the competitions. I asked them the reason of not participating. They told me that there is no future of this kind of competitions. (A) As I am interested to be Software Engineer and logic is called the brain of a software so I continued. They told me that it will be useless of my hard works. During that time I didn't have any sufficient data to prove that competitions is really important for increasing thinking capabilities of an engineer. But I continued it as I love it and I have great enthuasism on it. (R) After participating many competitions in online and onsite I could make some good positions. I got offer from serveral local companies before competing my post graduation. And now as a software engineer I believe that business logic is the core part of a software. And still I am learning to improve it.
+
+
+story: promotional product
 
 ### 8. Tell me about a time when you helped one of your teammates? (Bias for action, Ownership, Deliver result)
 (S) In my current project when I work on a service then sometimes I need to call another service through gateway. When I was about to finish a task I saw that some test cases were not succeeded. (T) I rechecked everything and found okay from my side. But as in the service layer I need to call another service so it might had some possibilites that that service was providing wrong data. (A) So I by myself check that service and found that there are some missing cases there. I walked to him and informed about it. He also checked it and found the problems. But he was busy with other task. So I offered him that I could do it for him because at the end of the we had to finish the project before the deadline. After fixing those bugs I pushed that changes and added him as a reviewer . He reviewed and merged that changes. (R) Then the bugs were fixed and my module also passed for all cases. I got inner peace helping him.
@@ -73,8 +83,17 @@ After that, I knew that I needed to manage my time better. I needed to inform th
 ### 10. Tell me a time when you came up with novel solution?
 (S) It happened at my current project when my team was using mysql for some services. After using some days disk was full. (T) We needed to free up the memory from our server. But all the data were so important. Besides, according to our design the server should be run for 5 years in memory. (A) I took the responsibility to fix it from those servers. Some of us also tried but no one didn't find any solution. Some of us also suggested to change the servers. But I requested my manager to give me time before moving into another. Previously one of us faced the same issue and he solved it moving into another. But after analyzing I found that mysql was taking more spaces than necessary. And it was taking log of each query to make future query faster. But this log/cache were so huge that our server ran out of memory. (R) Then I removed them and fixed the problem. Also I impelemnted a scheduler that automatically delete those logs/cache when total memory consumption is > 70%. 
 
+story: sql query optimization
+story: short key generation service
+
 ### 11. Tell me a time when you received negative feedback from manager and how you responded?
 (S) It happend at my previous company. All employees need to start office before @10 am sharp. Due to some problem in my family I went to bed late night. So I was late for couple of days consecutively. (A) Once during scrum meeting my manager told me that I was not serious about the time of entrance. I also realized that I was late for several days. I told her that I was sorry and would try to overcome that soon. So after the meeting I went to my manager and share my problem with her. (R) She told me that now she can realize the problem and promised me help in any circumstance. When I overcame my problem then again I could reach office timely and thanked her help.
+
+story: (A) When I first joined in the client meeting. My manager response me that my communication skill is not at good at all.(T) I am working on imporving my english skill. I have followed some youtube tutorial. I did some mock interview in param. Before the meeting, I am documenting the summary of the meeting. It helps me a lot. (R) After 5 meeting, manger notified me to i able improve my speaking.
+
+story: Filtering framework, syntax error time estimation
+
+Story: Dental chart, manager told me he want's more. 
 
 ### 12. Tell me a time when you went above and beyond your job responsibilities?
 (S) Let me tell you a time when I went above and beyond my job responsibilities. When I was working on my current project, sometimes my manager needs to delete container, model or firmware. There are a lot of dependencies and sometimes were not synchronized properly. (T) So I thought to make a feature for my manager to do this task easily. (A) I developed a feature for testing for my manager as well as others (Like PDM, testers) that calling an API with secretToken will delete all dependencies for model, container and firmware. And it will add some significant demo data to database so that presentation/testing becomes easy for anyone. (R) This feature were really amazing when anyone faced problem with synchronization. Also then my manager decided to keep this feature as hidden feature of my project!
